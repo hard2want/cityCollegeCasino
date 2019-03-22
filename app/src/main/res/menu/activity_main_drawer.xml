@@ -4,34 +4,31 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+        <item android:title="Games">
+            <menu>
+                <item
+                    android:id="@+id/nav_blackjack"
+                    android:icon="@drawable/blackjack"
+                    android:title="Play Blackjack" />
+                <item
+                    android:id="@+id/nav_craps"
+                    android:icon="@drawable/dice"
+                    android:title="Play Craps" />
+
+            </menu>
+        </item>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Leaderboard and Account Info">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_leaderboard"
+                android:icon="@drawable/ranking"
+                android:title="Leaderboard" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_account"
+                android:icon="@drawable/user"
+                android:title="My Account" />
         </menu>
     </item>
 
